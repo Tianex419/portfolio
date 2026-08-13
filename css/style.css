@@ -354,6 +354,7 @@ h4 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 12%;
 }
 
 .profile-caption {
@@ -973,10 +974,11 @@ h4 {
   }
 
   .profile-frame {
-    max-width: 260px;
+    max-width: 280px;
     margin-inline: auto;
-    border-radius: var(--radius-full);
-    aspect-ratio: 1;
+    /* Keep portrait shape so hair is not cropped by a circle */
+    border-radius: var(--radius-lg);
+    aspect-ratio: 4 / 5;
   }
 
   .about-gallery {
