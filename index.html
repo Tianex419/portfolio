@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Christian Jhune T. Villapaz — BS Information Technology graduate, web developer, and aspiring IT professional.">
+  <title>Christian Jhune T. Villapaz | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Christian<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="primary-nav" class="nav-links" aria-label="Primary">
+        <a href="index.html">Home / About Me</a>
+        <a href="organizations.html">Organizations &amp; Volunteer</a>
+        <a href="projects.html">Projects</a>
+        <a href="certificates.html">Certificates/Skills/Awards</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Introduction -->
+    <section class="hero" id="about">
+      <div class="container">
+        <!-- Text left + profile photo right (red box area) -->
+        <div class="hero-top">
+          <div class="hero-intro reveal">
+            <p class="eyebrow">BS Information Technology</p>
+            <h1 class="brand-name">Christian Jhune T. <span class="accent">Villapaz</span></h1>
+            <p class="hero-tagline">
+              Building practical digital solutions through web development, system analysis, and collaborative leadership.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="projects.html">View Projects</a>
+              <a class="btn btn-outline" href="organizations.html">Leadership &amp; Service</a>
+            </div>
+          </div>
+
+          <aside class="hero-profile reveal reveal-delay-1">
+            <div class="profile-frame">
+              <img src="images/profile.jpg" alt="Formal professional portrait of Christian Jhune T. Villapaz" width="800" height="1000">
+            </div>
+            <div class="profile-caption">
+              <strong>Christian Jhune T. Villapaz</strong>
+              <span>Leadership Award</span><br>
+              <span>Aspiring IT Professional</span>
+            </div>
+          </aside>
+        </div>
+
+        <!-- Four story photos with descriptions -->
+        <div class="story-section reveal">
+          <h2 class="story-heading">About Me</h2>
+          <div class="about-gallery" aria-label="Personal story through photos">
+            <figure class="story-card">
+              <div class="story-media">
+                <img class="pos-top" src="images/About1.jpg" alt="Christian during an earlier chapter of his journey" width="800" height="1000" loading="eager">
+              </div>
+              <figcaption>
+                <h3>Who I Am</h3>
+                <p>I'm Christian Jhune T. Villapaz, a Bachelor of Science in Information Technology graduate passionate about web development, system analysis, leadership, and creating meaningful digital solutions.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="story-card">
+              <div class="story-media">
+                <img class="pos-face" src="images/About2.jpg" alt="Christian rebuilding his lifestyle and health" width="800" height="1000" loading="lazy">
+              </div>
+              <figcaption>
+                <h3>The Turning Point</h3>
+                <p>Four years ago, I was a teenager who felt lost and stuck in life. Because of my old habits and unhealthy lifestyle, I reached around 100 kilograms. I knew I needed to change, so I started changing my lifestyle, lost weight, and began rebuilding myself.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="story-card">
+              <div class="story-media">
+                <img class="pos-center" src="images/About3.jpg" alt="Christian finding strength and purpose through faith" width="800" height="1000" loading="lazy">
+              </div>
+              <figcaption>
+                <h3>Faith &amp; Purpose</h3>
+                <p>But the greatest change in my life was not physical,it was spiritual. Jesus Christ, my one and only Savior, gave me the hope, strength, and purpose to change my life.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="story-card">
+              <div class="story-media">
+                <img class="pos-diploma" src="images/About4.jpg" alt="Christian at graduation holding his Leadership Award certificate" width="800" height="1000" loading="lazy">
+              </div>
+              <figcaption>
+                <h3>Moving Forward</h3>
+                <p>Today, I continue to learn, serve, grow, and pursue opportunities where I can use my skills to make a meaningful impact. My past is part of my story, but through Christ, it does not define my future.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <h2>Christian Jhune T. Villapaz</h2>
+        <p>BS Information Technology | Web Developer | IT Professional</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:villapazchristianjhune@gmail.com">Email</a>
+        <a href="https://web.facebook.com/christian.villapaz.5" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Christian Jhune T. Villapaz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
+
+  <!-- Shared lightbox (available if needed on this page) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <div class="lightbox-content">
+      <button class="lightbox-close" type="button" aria-label="Close preview">&times;</button>
+      <img class="lightbox-image" alt="">
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

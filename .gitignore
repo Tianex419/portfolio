@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.lnk
+
+# Local helpers (not needed on GitHub Pages)
+start-portfolio.bat
+*-original.jpg
+
+# Large optional backups
+*.bak
